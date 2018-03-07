@@ -162,7 +162,7 @@ describe('blogs API resource', function () {
         });
     });
 
-    /*describe('DELETE endpoint', function() {
+    describe('DELETE endpoint', function() {
         it('delete a blog post by id', function() {
             let post;
 
@@ -170,7 +170,7 @@ describe('blogs API resource', function () {
             .findOne()
             .then(function(_post) {
                 post = _post;
-                return chai.request(app).delete(`posts/${post.id}`);
+                return chai.request(app).delete(`/posts/${post._id}`);
             })
             .then(function(res){
                 expect(res).to.have.status(204);
@@ -178,8 +178,8 @@ describe('blogs API resource', function () {
             })
             .then(function(_post) {
                 expect(_post).to.be.null;
-            })
+            });
         });
-    });*/
+    });
 });
 
