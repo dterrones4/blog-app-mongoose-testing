@@ -162,7 +162,7 @@ describe('blogs API resource', function () {
         });
     });
 
-    describe('DELETE endpoint', function() {
+    /*describe('DELETE endpoint', function() {
         it('delete a blog post by id', function() {
             let post;
 
@@ -180,6 +180,6 @@ describe('blogs API resource', function () {
                 expect(_post).to.be.null;
             })
         });
-    });
+    });*/
 });
 
